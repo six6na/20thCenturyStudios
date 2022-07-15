@@ -129,3 +129,16 @@ main {
     margin-left: 22px;
     width: 50%;
   }
+  
+  hr {
+    margin-top: 20%;
+    margin-bottom: 20%;
+    margin-left: 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    background-color: var(--point-color);
+    height: 3px;
+  }
