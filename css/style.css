@@ -19,14 +19,61 @@
 
   #main-header {
     width: 100%;
-    height: 54px;
-    background: #333;
-    position: fixed;
-    top: 0;
+    /* height: 54px; */
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+  }
+
+  #logo a img {
+    padding-top: 10px;
   }
   
+  #gnb a, #gnb button {
+    color: #fff;
+    border-style: none;
+    background-color: transparent;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-left: 5px;
+  }
+
+  #btn-search{
+    position: absolute;
+    left: 242px;
+    top: -15px;
+}
+
+.bi-search{
+    text-align: center;
+    font-size: 21px;
+}
+
+#btn-menu{
+    position: absolute;
+    left: 276px;
+    top: -15px;
+}
+
+.bi-list {
+    font-size: 32px;
+  }
+  
+#gnb {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    color: #fff;
+}
+
   main {
-    margin-top: 70px;
+    /* margin-top: 70px; */
     background-image: url(/images/bg.svg);
     background-repeat: no-repeat;
     width: 100%;
@@ -116,6 +163,7 @@
     display: flex;
     justify-content: space-around;
   }
+
   .text1{
     font-size: 12px;
     font-weight: 700;
@@ -124,6 +172,7 @@
     display: flex;
     justify-content: space-around;
   }
+
   .text2{
     font-size: 12px;
     font-weight: 700;
@@ -132,6 +181,7 @@
     display: flex;
     justify-content: space-around;
   }
+
   .text3{
     font-size: 12px;
     font-weight: 700;
