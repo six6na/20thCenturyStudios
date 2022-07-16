@@ -6,7 +6,11 @@ main {
     width: 100%;
     display: block;
     background-size: 100%;
-    padding-bottom: 100px;
+    padding-bottom: 70px;
+  }
+
+  .main-bt {
+    padding-bottom: 90px;
   }
 
   #info-header {
