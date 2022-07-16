@@ -132,14 +132,25 @@
 
 
 /* 현진언니css */
-main p {
+.swiper{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.swiper-slide img{ 
+  width: 100%; 
+  z-index:1;
+  /* object-fit: cover; */
+}
+
+/* main p {
   margin-top: 24px;
   margin-bottom: 25px;
   margin-left: 20px;
   font-style: normal;
   font-weight: 700;
   font-size: 12px;
-}
+} */
 
 /* 소시지버튼 */
 
@@ -207,11 +218,19 @@ position: relative;
   box-sizing: border-box;
   /* margin-bottom: 5%; */
 }
+
 .home-card .box img{
   width: 100%;
   display: block;
   padding-top: 15px;
-  padding-right: 15px;
+}
+
+.box1{
+padding-right: 15px;
+}
+
+.box2{
+padding-left: 15px;
 }
 
 
@@ -223,6 +242,7 @@ margin-top: 24px;
 font-weight: normal;
 font-size: 11px;
 }
+
 .youtube h2 {
 /* outline: 1px solid red; */
 margin-bottom: 20px;
@@ -231,6 +251,7 @@ font-weight:400;
 font-size: 12px;
 line-height: 16px;
 }
+
 .new-menu{
 margin-bottom: 50px;
 }
